@@ -20,6 +20,6 @@ flutter:
     platforms:
       android:
         package: com.lambdatest.fluttersystemproxy.flutter_system_proxy
-        pluginClass: FlutterSystemProxyPlugin
+        pluginClass: FlutterProxyPlugin
       ios:
-        pluginClass: FlutterSystemProxyPlugin
+        pluginClass: FlutterProxyPlugin
