@@ -1,0 +1,25 @@
+name: flutter_system_proxy
+description: A Flutter Plugin to detect Proxy from the system, when using geolocation, tunnel, etc.
+version: 0.1.1
+homepage: https://github.com/Lambdatest/flutter_system_proxy.git
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.lambdatest.fluttersystemproxy.flutter_system_proxy
+        pluginClass: FlutterSystemProxyPlugin
+      ios:
+        pluginClass: FlutterSystemProxyPlugin
